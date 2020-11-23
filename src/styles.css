@@ -1,1 +1,57 @@
-/* You can add global styles to this file, and also import other style files */
+.wrapper {
+  position: relative;
+
+}
+
+.wrapper canvas {
+  position: absolute;
+
+}
+
+.container {
+  width: 100%;
+  margin:0px !important;
+  padding: 0px !important;
+  max-width: unset;
+  display: flex; 
+}
+.col {
+  flex: 1;
+  width: 100%;
+}
+body{
+    background:white;
+}
+
+svg {
+  position: relative;
+  display: block;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+}
+
+svg:active {
+  cursor: move;
+  cursor: -moz-grabbing;
+  cursor: -webkit-grabbing;
+}
+circle {
+  fill: none;
+  stroke-width: 1.5px;
+}
+#first_layer path {
+  fill-opacity:0.8;
+  fill: none;
+  stroke: black;
+  stroke-width:0.5px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.geojson {
+    fill: none;
+    stroke: purple;
+    stroke-width: 3;
+   }
+  
